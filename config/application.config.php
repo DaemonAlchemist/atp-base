@@ -4,7 +4,7 @@ $env = getenv('APPLICATION_ENV') ?: 'development';
 return array(
     'modules' => array(
         'Application',
-		'Core'
+		'ATPCore'
     ),
 
     'module_listener_options' => array(
