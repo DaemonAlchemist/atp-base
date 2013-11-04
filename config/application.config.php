@@ -1,5 +1,5 @@
 <?php
-$env = getenv('APP_ENV') ?: 'development';
+$env = getenv('APPLICATION_ENV') ?: 'development';
 
 return array(
     'modules' => array(
