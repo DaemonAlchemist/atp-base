@@ -16,10 +16,6 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-		$sm = $this->getServiceLocator();
-		$module = $sm->get('ATPCore\Model\Module');
-		$modules = $module->getActiveModuleNames();
-		echo "<pre>";print_r($modules);die();
         return new ViewModel();
     }
 }
