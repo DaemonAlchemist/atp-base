@@ -1,6 +1,7 @@
 <?php
 return array(
      'db' => array(
+		'database'	=> 'CHANGEME',
 		'username'	=> 'CHANGEME',
 		'password'	=> 'CHANGEME'
     ),
