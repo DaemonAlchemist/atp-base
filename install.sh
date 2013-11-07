@@ -1,53 +1,35 @@
 #!/bin/bash
 
+# Switch to the vendor directory
 cd vendor
 
-# Checkout ATP library
-if [ ! -d ATP ]; then
-	mkdir ATP
-	cd ATP
-	git clone www.evilinnocence.com:/var/git/ATP.git .
-	cd ..
-else
-	echo "ATP library already installed."
-fi
+# Declare libraries to install
+declare -A libraries
+libraries["ATP"]="www.evilinnocence.com:/var/git/ATP.git"
+libraries["atp-modules"]="www.evilinnocence.com:/var/git/atp-modules.git"
+libraries["Assetic"]="https://github.com/kriswallsmith/assetic.git"
+libraries["AssetManager"]="https://github.com/RWOverdijk/AssetManager.git"
+libraries["ZF2"]="https://github.com/zendframework/zf2.git"
+
+# Loop over libraries and install
+for dir in "${!libraries[@]}"
+do
+	# Let us know which library is being processed
+	echo "Installing ${libraries[$dir]} in vendor/$dir"
 	
-# Checkout ATP modules
-if [ ! -d atp-modules ]; then
-	mkdir atp-modules
-	cd atp-modules
-	git clone www.evilinnocence.com:/var/git/atp-modules.git .
-	cd ..
-else
-	echo "ATP standard modules already installed."
-fi
-
-# Checkout Assetic module
-if [ ! -d Assetic ]; then
-	mkdir Assetic
-	cd Assetic
-	git clone https://github.com/kriswallsmith/assetic.git .
-	cd ..
-else
-	echo "Assetic module already installed."
-fi
-
-# Checkout AssetManager module
-if [ ! -d AssetManager ]; then
-	mkdir AssetManager
-	cd AssetManager
-	git clone https://github.com/RWOverdijk/AssetManager.git .
-	cd ..
-else
-	echo "Asset Manager module already installed."
-fi
-
-# Checkout Zend Framwork 2
-if [ ! -d ZF2 ]; then
-	mkdir ZF2
-	cd ZF2
-	git clone https://github.com/zendframework/zf2.git .
-	cd ..
-else
-	echo "Zend Framework 2 already installed."
-fi
+	# Check to see if the library is already installed
+	if [ ! -d "$dir" ]; then
+		# Create the directory and switch to it
+		mkdir "$dir"
+		cd "$dir"
+		
+		# Checkout the library
+		git clone "${libraries[$dir]}" .
+		
+		# Go back up to the vendor directory
+		cd ..
+	else
+		# Let us know that the library is already installed
+		echo "  - $dir already installed."
+	fi
+done
