@@ -22,6 +22,16 @@ else
 	echo "ATP standard modules already installed."
 fi
 
+# Checkout Assetic module
+if [ ! -d Assetic ]; then
+	mkdir Assetic
+	cd Assetic
+	git clone https://github.com/kriswallsmith/assetic.git .
+	cd ..
+else
+	echo "Assetic module already installed."
+fi
+
 # Checkout AssetManager module
 if [ ! -d AssetManager ]; then
 	mkdir AssetManager
