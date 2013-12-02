@@ -5,8 +5,10 @@ cd vendor
 
 # Declare libraries to install
 declare -A libraries
-libraries["ATP"]="www.evilinnocence.com:/var/git/ATP.git"
-libraries["ATPCore"]="www.evilinnocence.com:/var/git/atp-modules/ATPCore.git"
+libraries["ATP"]="https://github.com/DaemonAlchemist/atp-base.git"
+libraries["ATPAdmin"]="https://github.com/DaemonAlchemist/atp-admin.git"
+libraries["ATPCms"]="https://github.com/DaemonAlchemist/atp-cms.git"
+libraries["ATPCore"]="https://github.com/DaemonAlchemist/atp-core.git"
 libraries["Assetic"]="https://github.com/kriswallsmith/assetic.git"
 libraries["AssetManager"]="https://github.com/RWOverdijk/AssetManager.git"
 libraries["ZF2"]="https://github.com/zendframework/zf2.git"
