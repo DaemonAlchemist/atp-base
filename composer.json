@@ -25,7 +25,6 @@
 		"daemonalchemist/atp-cms": "dev-master",
 		"daemonalchemist/atp-gallery": "dev-master",
 		"daemonalchemist/atp-social": "dev-master",
-		"kriswallsmith/assetic": "dev-master as 1.1.2",
 		"stroker/cache": "*"
     }
 }
