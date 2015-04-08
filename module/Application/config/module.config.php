@@ -15,6 +15,7 @@ return array(
 			),
 		),
 	),
+	'timeZone' => 'America/Chicago',
     'router' => array(
         'routes' => array(
             'home' => array(
