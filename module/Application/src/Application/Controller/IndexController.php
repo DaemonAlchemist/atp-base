@@ -13,6 +13,6 @@ class IndexController extends \ATPCore\Controller\AbstractController
 {
     public function indexAction()
     {
-        return new ViewModel();
+        return new \Zend\View\Model\ViewModel();
     }
 }
