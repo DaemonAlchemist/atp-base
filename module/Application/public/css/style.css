@@ -1,37 +1,97 @@
+.reset {
+ margin: 0 0 0 0;
+ padding: 0;
+ float: none;
+ box-sizing: border-box;
+ -mox-box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ line-height: 24px;
+ vertical-align: top;
+ text-align: justify;
+ color: #000000;
+ border: none;
+ border-width: 0;
+ border-image-width: 0;
+ border-spacing: 0;
+}
+* {
+ margin: 0 0 0 0;
+ padding: 0;
+ float: none;
+ box-sizing: border-box;
+ -mox-box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ line-height: 24px;
+ vertical-align: top;
+ text-align: justify;
+ color: #000000;
+ border: none;
+ border-width: 0;
+ border-image-width: 0;
+ border-spacing: 0;
+}
+ul,
+ol {
+ display: block;
+ list-style-type: none;
+}
+select {
+ height: 24px;
+}
+a {
+ text-decoration: none;
+}
+.header-link {
+ float: left;
+ padding: 4px;
+ width: 100px;
+ text-align: center;
+ height: 100%;
+ margin: 0 4px;
+ background: #eeeeee;
+}
+.header-link:first-child {
+ margin-left: 0;
+}
 body {
-    padding-top: 60px;
-    padding-bottom: 40px;
+ background: #dddddd;
 }
-
-.zf-green {
-    color: #68b604;
+div#page {
+ background: #ffffff;
+ width: 1024px;
+ margin: auto;
 }
-
-.btn-success {
-  background-color: #57a900;
-  background-image: -moz-linear-gradient(top, #70d900, #57a900);
-  background-image: -ms-linear-gradient(top, #70d900, #57a900);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
-  background-image: -webkit-linear-gradient(top, #70d900, #57a900);
-  background-image: -o-linear-gradient(top, #70d900, #57a900);
-  background-image: linear-gradient(top, #70d900, #57a900);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+header {
+ padding-top: 150px;
 }
-
-.btn-success:hover,
-.btn-success:active,
-.btn-success.active,
-.btn-success.disabled,
-.btn-success[disabled] {
-  background-color: #57a900;
+header nav ul {
+ width: 100%;
+ background: #dddddd;
+ height: 2em;
 }
-
-.btn-success:active, .btn-success.active {
-  background-color: #57a900;
+header nav ul li {
+ float: left;
+ padding: 4px;
+ width: 100px;
+ text-align: center;
+ height: 100%;
+ margin: 0 4px;
+ background: #eeeeee;
 }
-
-div.container a.brand {
-    background: url("../img/zf2-logo.png") no-repeat scroll 0 10px transparent;
-    margin-left: 0;
-    padding: 8px 20px 12px 40px;
+header nav ul li:first-child {
+ margin-left: 0;
+}
+main {
+ clear: both;
+ padding: 4px;
+}
+footer {
+ clear: both;
+ border-top: solid 4px #dddddd;
+ padding: 4px;
+}
+footer p#copyright {
+ text-align: center;
 }

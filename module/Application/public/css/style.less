@@ -1,0 +1,68 @@
+/* Reset */
+.reset {
+	margin: 0 0 0 0; padding: 0; float: none; box-sizing: border-box; -mox-box-sizing: border-box;
+	font-family: Arial,Helvetica,sans-serif; font-size: 16px; line-height: 24px; vertical-align: top; text-align: justify; color: #000000;
+	border: none; border-width: 0; border-image-width: 0; border-spacing: 0;
+}
+*  {.reset;}
+ul, ol {display: block; list-style-type: none;}
+select {height: 24px;}
+a {
+	text-decoration: none;
+}
+/* End reset */
+
+/* Variables */
+@btn-padding: 4px;
+@btn-color: #eeeeee;
+@banner-height: 150px;
+@page-width: 1024px;
+@background: #dddddd;
+@foreground: #ffffff;
+
+/* Definitions */
+.header-link {
+	float: left;
+	padding: @btn-padding;
+	width: 100px;
+	text-align: center;
+	height: 100%;
+	margin: 0 @btn-padding;
+	&:first-child{margin-left: 0;}
+	background: @btn-color;
+}
+
+/* General styles */
+body {
+	background: @background;
+}
+
+div#page{
+	background: @foreground;
+	width: @page-width;
+	margin: auto;
+}
+
+header {
+	padding-top: @banner-height;
+	nav {
+		ul {
+			width: 100%;
+			background: @background;
+			height: 2em;
+			li {.header-link;}
+		}
+	}
+}
+
+main {
+	clear: both;
+	padding: @btn-padding;
+}
+
+footer {
+	clear: both;
+	border-top: solid @btn-padding @background;
+	p#copyright {text-align: center;}
+	padding: @btn-padding;
+}
