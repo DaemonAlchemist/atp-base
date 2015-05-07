@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp.git",
-                "reference": "9228ef53118a4191979b7005988f81d936cad424"
+                "reference": "05860df82268a44e72b52d14131085df7bca5f8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp/zipball/9228ef53118a4191979b7005988f81d936cad424",
-                "reference": "9228ef53118a4191979b7005988f81d936cad424",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp/zipball/05860df82268a44e72b52d14131085df7bca5f8a",
+                "reference": "05860df82268a44e72b52d14131085df7bca5f8a",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Helper classes for the ATP framework",
-            "time": "2015-01-26 05:02:23"
+            "time": "2015-04-12 14:06:24"
         },
         {
             "name": "daemonalchemist/atp-admin",
@@ -154,12 +154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-core.git",
-                "reference": "eaf623a100145ad2e043c8d7fc837f262f699b46"
+                "reference": "93fa312b440826819bdcf85da5d9657c9b316e54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-core/zipball/eaf623a100145ad2e043c8d7fc837f262f699b46",
-                "reference": "eaf623a100145ad2e043c8d7fc837f262f699b46",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-core/zipball/93fa312b440826819bdcf85da5d9657c9b316e54",
+                "reference": "93fa312b440826819bdcf85da5d9657c9b316e54",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +202,7 @@
                 }
             ],
             "description": "Core components for the ATP framework",
-            "time": "2015-04-08 15:27:40"
+            "time": "2015-05-06 18:07:03"
         },
         {
             "name": "daemonalchemist/atp-gallery",
@@ -210,12 +210,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-gallery.git",
-                "reference": "ba29ad1f890e30ea4399f65897abdaa5bb28d7b3"
+                "reference": "21cd9520a9247169d8f8b6d74aa3a60974d866e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-gallery/zipball/ba29ad1f890e30ea4399f65897abdaa5bb28d7b3",
-                "reference": "ba29ad1f890e30ea4399f65897abdaa5bb28d7b3",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-gallery/zipball/21cd9520a9247169d8f8b6d74aa3a60974d866e9",
+                "reference": "21cd9520a9247169d8f8b6d74aa3a60974d866e9",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
                 }
             ],
             "description": "Image gallery module for the ATP framework",
-            "time": "2014-10-03 16:57:42"
+            "time": "2015-04-08 15:28:25"
         },
         {
             "name": "daemonalchemist/atp-social",
@@ -530,17 +530,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "2.7.x-dev",
-            "target-dir": "Symfony/Component/Process",
+            "version": "2.8.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "6028c8268fa2afe7e500f9652709270607b535a1"
+                "reference": "8382bc54f1d83ee36fb3983bb1b6b307d238622b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/6028c8268fa2afe7e500f9652709270607b535a1",
-                "reference": "6028c8268fa2afe7e500f9652709270607b535a1",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/8382bc54f1d83ee36fb3983bb1b6b307d238622b",
+                "reference": "8382bc54f1d83ee36fb3983bb1b6b307d238622b",
                 "shasum": ""
             },
             "require": {
@@ -552,11 +551,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Symfony\\Component\\Process\\": ""
                 }
             },
@@ -576,7 +575,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-30 15:55:07"
+            "time": "2015-04-24 07:03:44"
         },
         {
             "name": "zendframework/zend-cache",
