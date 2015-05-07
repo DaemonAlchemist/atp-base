@@ -118,12 +118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-cms.git",
-                "reference": "2d15ebb9b9def81145375a8739d99f7a98ea70e9"
+                "reference": "bee1fd3c9acc3299c194bad3f4296123a0a7848b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-cms/zipball/2d15ebb9b9def81145375a8739d99f7a98ea70e9",
-                "reference": "2d15ebb9b9def81145375a8739d99f7a98ea70e9",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-cms/zipball/bee1fd3c9acc3299c194bad3f4296123a0a7848b",
+                "reference": "bee1fd3c9acc3299c194bad3f4296123a0a7848b",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
                 }
             ],
             "description": "Cms module for ATP framework",
-            "time": "2015-05-07 17:56:00"
+            "time": "2015-05-07 18:07:29"
         },
         {
             "name": "daemonalchemist/atp-core",
