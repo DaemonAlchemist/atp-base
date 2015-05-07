@@ -13,6 +13,20 @@ class IndexController extends \ATPCore\Controller\AbstractController
 {
     public function indexAction()
     {
-        return new \Zend\View\Model\ViewModel();
+		$page = new \ATPCms\Model\Page();
+		$page->loadByUrl('home');
+	
+		if(!$page->id)
+		{
+			$this->getResponse()->setStatusCode(404);
+			return;
+		}
+	
+		$pageWidget = new \ATPCms\View\Widget\Page();
+		$pageWidget->page = $page;
+	
+		$view = new \Zend\View\Model\ViewModel();
+		$view->addChild($pageWidget, 'page');
+		return $view;
     }
 }
