@@ -9,11 +9,7 @@
 
 return array(
 	'asset_manager' => array(
-		'resolver_configs' => array(
-			'paths' => array(
-				__DIR__ . '/../public',
-			),
-		),
+		'priority' => 1000,
 	),
 	'timeZone' => 'America/Chicago',
     'router' => array(
