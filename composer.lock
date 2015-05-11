@@ -210,12 +210,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-gallery.git",
-                "reference": "3e89b543cb06fc2deb12d56a6c5259ed67c4c045"
+                "reference": "2cecbfa750e8674f90cd25ec923b2151b0f23f0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-gallery/zipball/3e89b543cb06fc2deb12d56a6c5259ed67c4c045",
-                "reference": "3e89b543cb06fc2deb12d56a6c5259ed67c4c045",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-gallery/zipball/2cecbfa750e8674f90cd25ec923b2151b0f23f0a",
+                "reference": "2cecbfa750e8674f90cd25ec923b2151b0f23f0a",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
                 }
             ],
             "description": "Image gallery module for the ATP framework",
-            "time": "2015-05-11 13:58:57"
+            "time": "2015-05-11 20:58:16"
         },
         {
             "name": "daemonalchemist/atp-social",
