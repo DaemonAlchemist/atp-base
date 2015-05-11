@@ -19,6 +19,9 @@ a {
 @page-width: 1024px;
 @background: #dddddd;
 @foreground: #ffffff;
+@text-stroke-size: 2px;
+@text-stroke-color: #fff;
+@text-color: #333;
 
 /* Definitions */
 .header-link {
@@ -35,6 +38,9 @@ a {
 /* General styles */
 body {
 	background: @background;
+	* {
+		color: @text-color;
+	}
 }
 
 div#page{
@@ -58,6 +64,17 @@ header {
 main {
 	clear: both;
 	padding: @btn-padding;
+	
+	h1 {
+		font-size: x-large;
+		margin: 8px;
+		border-bottom: solid 2px;
+		text-shadow:
+		-@text-stroke-size -@text-stroke-size 0 @text-stroke-color,
+		@text-stroke-size -@text-stroke-size 0 @text-stroke-color,
+		-@text-stroke-size @text-stroke-size 0 @text-stroke-color,
+		@text-stroke-size @text-stroke-size 0 @text-stroke-color;
+	}
 }
 
 footer {

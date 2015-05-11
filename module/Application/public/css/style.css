@@ -58,6 +58,9 @@ a {
 body {
  background: #dddddd;
 }
+body * {
+ color: #333;
+}
 div#page {
  background: #ffffff;
  width: 1024px;
@@ -86,6 +89,12 @@ header nav ul li:first-child {
 main {
  clear: both;
  padding: 4px;
+}
+main h1 {
+ font-size: x-large;
+ margin: 8px;
+ border-bottom: solid 2px;
+ text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
 }
 footer {
  clear: both;
