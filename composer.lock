@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9cce99ef0357c1e9fa0f82b6dc2e54f6",
+    "hash": "7abea8ea2c64ef7ed4df73094ecf144b",
     "packages": [
         {
             "name": "daemonalchemist/atp",
@@ -275,6 +275,39 @@
             ],
             "description": "Social media module for the ATP framework",
             "time": "2014-10-03 16:58:00"
+        },
+        {
+            "name": "daemonalchemist/atp-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaemonAlchemist/atp-user.git",
+                "reference": "bd9dc64128057fbfa93535737f2f26c810b643e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-user/zipball/bd9dc64128057fbfa93535737f2f26c810b643e7",
+                "reference": "bd9dc64128057fbfa93535737f2f26c810b643e7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ATPUser": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Wittrock",
+                    "email": "andy@wittrock.us"
+                }
+            ],
+            "description": "User library for the ATP framework",
+            "time": "2014-10-08 20:58:08"
         },
         {
             "name": "imagine/imagine",
@@ -2069,7 +2102,8 @@
         "daemonalchemist/atp-admin": 20,
         "daemonalchemist/atp-cms": 20,
         "daemonalchemist/atp-gallery": 20,
-        "daemonalchemist/atp-social": 20
+        "daemonalchemist/atp-social": 20,
+        "daemonalchemist/atp-user": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
