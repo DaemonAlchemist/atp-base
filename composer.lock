@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7abea8ea2c64ef7ed4df73094ecf144b",
+    "hash": "e0b15730b2e581b0df12847191c04845",
     "packages": [
         {
             "name": "daemonalchemist/atp",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp.git",
-                "reference": "6dfbb4b3f5ef7653922cbe1b2be65dd6bd807b82"
+                "reference": "867346f91f9a41448ff712d699e2b38fc13441ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp/zipball/6dfbb4b3f5ef7653922cbe1b2be65dd6bd807b82",
-                "reference": "6dfbb4b3f5ef7653922cbe1b2be65dd6bd807b82",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp/zipball/867346f91f9a41448ff712d699e2b38fc13441ff",
+                "reference": "867346f91f9a41448ff712d699e2b38fc13441ff",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,44 @@
                 }
             ],
             "description": "Helper classes for the ATP framework",
-            "time": "2015-05-11 16:48:20"
+            "time": "2015-05-13 17:26:11"
+        },
+        {
+            "name": "daemonalchemist/atp-acl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaemonAlchemist/atp-acl.git",
+                "reference": "2272e35360d6a7871cbd56f2da6108c420f2de49"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-acl/zipball/2272e35360d6a7871cbd56f2da6108c420f2de49",
+                "reference": "2272e35360d6a7871cbd56f2da6108c420f2de49",
+                "shasum": ""
+            },
+            "require": {
+                "daemonalchemist/atp-core": "dev-master",
+                "daemonalchemist/atp-user": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ATPAcl": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Wittrock",
+                    "email": "andy@wittrock.us"
+                }
+            ],
+            "description": "Access control list module for the ATP framework",
+            "time": "2015-05-12 16:49:42"
         },
         {
             "name": "daemonalchemist/atp-admin",
@@ -118,12 +155,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-cms.git",
-                "reference": "0796e32e0b7103802124210a8a8e8c3db416b040"
+                "reference": "83b3d424f270c2d5fb0b5e1912546a693a453bf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-cms/zipball/0796e32e0b7103802124210a8a8e8c3db416b040",
-                "reference": "0796e32e0b7103802124210a8a8e8c3db416b040",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-cms/zipball/83b3d424f270c2d5fb0b5e1912546a693a453bf2",
+                "reference": "83b3d424f270c2d5fb0b5e1912546a693a453bf2",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +183,7 @@
                 }
             ],
             "description": "Cms module for ATP framework",
-            "time": "2015-05-11 04:47:32"
+            "time": "2015-05-12 14:21:47"
         },
         {
             "name": "daemonalchemist/atp-core",
@@ -282,12 +319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-user.git",
-                "reference": "bd9dc64128057fbfa93535737f2f26c810b643e7"
+                "reference": "51c160e721cf235fb7cbd37f1578372f91230aec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-user/zipball/bd9dc64128057fbfa93535737f2f26c810b643e7",
-                "reference": "bd9dc64128057fbfa93535737f2f26c810b643e7",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-user/zipball/51c160e721cf235fb7cbd37f1578372f91230aec",
+                "reference": "51c160e721cf235fb7cbd37f1578372f91230aec",
                 "shasum": ""
             },
             "type": "library",
@@ -307,7 +344,7 @@
                 }
             ],
             "description": "User library for the ATP framework",
-            "time": "2014-10-08 20:58:08"
+            "time": "2015-05-13 17:27:57"
         },
         {
             "name": "imagine/imagine",
@@ -567,12 +604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "8382bc54f1d83ee36fb3983bb1b6b307d238622b"
+                "reference": "a87e7b39515c3d09b52dc2b0c033e01683ff1c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/8382bc54f1d83ee36fb3983bb1b6b307d238622b",
-                "reference": "8382bc54f1d83ee36fb3983bb1b6b307d238622b",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/a87e7b39515c3d09b52dc2b0c033e01683ff1c9a",
+                "reference": "a87e7b39515c3d09b52dc2b0c033e01683ff1c9a",
                 "shasum": ""
             },
             "require": {
@@ -598,17 +635,17 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony Process Component",
-            "homepage": "http://symfony.com",
-            "time": "2015-04-24 07:03:44"
+            "homepage": "https://symfony.com",
+            "time": "2015-05-12 15:16:46"
         },
         {
             "name": "zendframework/zend-cache",
@@ -2098,12 +2135,12 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "daemonalchemist/atp-acl": 20,
         "daemonalchemist/atp-advertising": 20,
         "daemonalchemist/atp-admin": 20,
         "daemonalchemist/atp-cms": 20,
         "daemonalchemist/atp-gallery": 20,
-        "daemonalchemist/atp-social": 20,
-        "daemonalchemist/atp-user": 20
+        "daemonalchemist/atp-social": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
