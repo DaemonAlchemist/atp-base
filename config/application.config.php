@@ -7,7 +7,6 @@ return \ATP\Application\Config::defaultOptions(array(
 		'ATPAdmin',
 		'ATPCms',
 		'ATPGallery',
-		'ATPUser',
 		'AssetManager',
     )),
 	getenv('APPLICATION_ENV') ?: 'development'
