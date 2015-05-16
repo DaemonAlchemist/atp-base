@@ -82,12 +82,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-admin.git",
-                "reference": "5585a70d7107a7d13ab5d4319f754fc192cd30af"
+                "reference": "463f6db98ae0abafed5ad97cb3589e035649ba8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-admin/zipball/5585a70d7107a7d13ab5d4319f754fc192cd30af",
-                "reference": "5585a70d7107a7d13ab5d4319f754fc192cd30af",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-admin/zipball/463f6db98ae0abafed5ad97cb3589e035649ba8d",
+                "reference": "463f6db98ae0abafed5ad97cb3589e035649ba8d",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                 }
             ],
             "description": "Basic admin for the ATP framework",
-            "time": "2015-04-08 15:25:39"
+            "time": "2015-05-16 17:06:54"
         },
         {
             "name": "daemonalchemist/atp-advertising",
@@ -191,16 +191,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-contact.git",
-                "reference": "5f5b04bc944736dd45219198ae2266e6dac73335"
+                "reference": "935a632c75bc8c8a92846729eb35cefad325baed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-contact/zipball/5f5b04bc944736dd45219198ae2266e6dac73335",
-                "reference": "5f5b04bc944736dd45219198ae2266e6dac73335",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-contact/zipball/935a632c75bc8c8a92846729eb35cefad325baed",
+                "reference": "935a632c75bc8c8a92846729eb35cefad325baed",
                 "shasum": ""
             },
             "require": {
-                "daemonalchemist/atp-core": "dev-master"
+                "daemonalchemist/atp-core": "dev-master",
+                "mandrill/mandrill": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -219,7 +220,7 @@
                 }
             ],
             "description": "Contact module for ATP framework",
-            "time": "2015-05-16 14:13:55"
+            "time": "2015-05-16 19:26:56"
         },
         {
             "name": "daemonalchemist/atp-core",
@@ -227,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-core.git",
-                "reference": "4dd019b71bfb9bdc3335080f76e59174c0cb23ad"
+                "reference": "d70125e72a97e7126f0482a535d59c5649833789"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-core/zipball/4dd019b71bfb9bdc3335080f76e59174c0cb23ad",
-                "reference": "4dd019b71bfb9bdc3335080f76e59174c0cb23ad",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-core/zipball/d70125e72a97e7126f0482a535d59c5649833789",
+                "reference": "d70125e72a97e7126f0482a535d59c5649833789",
                 "shasum": ""
             },
             "require": {
@@ -275,7 +276,7 @@
                 }
             ],
             "description": "Core components for the ATP framework",
-            "time": "2015-05-11 16:49:18"
+            "time": "2015-05-16 17:08:14"
         },
         {
             "name": "daemonalchemist/atp-gallery",
@@ -514,6 +515,49 @@
             "time": "2014-12-12 05:04:05"
         },
         {
+            "name": "mandrill/mandrill",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php.git",
+                "reference": "9f336b08ea148c80db3b694f3dc737cd4f414e19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php/get/9f336b08ea148c80db3b694f3dc737cd4f414e19.zip",
+                "reference": "9f336b08ea148c80db3b694f3dc737cd4f414e19",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mandrill": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mandrill Devs",
+                    "email": "community@mandrill.com",
+                    "homepage": "http://mandrill.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "API client library for the Mandrill email as a service platform",
+            "homepage": "https://bitbucket.org/mailchimp/mandrill-api-php",
+            "keywords": [
+                "api",
+                "email"
+            ],
+            "time": "2014-10-16 19:08:20"
+        },
+        {
             "name": "rwoverdijk/assetmanager",
             "version": "dev-master",
             "source": {
@@ -640,12 +684,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "a87e7b39515c3d09b52dc2b0c033e01683ff1c9a"
+                "reference": "daf96f1491cf0b8d8de60e6d3b5fda8e502b3798"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/a87e7b39515c3d09b52dc2b0c033e01683ff1c9a",
-                "reference": "a87e7b39515c3d09b52dc2b0c033e01683ff1c9a",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/daf96f1491cf0b8d8de60e6d3b5fda8e502b3798",
+                "reference": "daf96f1491cf0b8d8de60e6d3b5fda8e502b3798",
                 "shasum": ""
             },
             "require": {
@@ -681,7 +725,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-05-12 15:16:46"
+            "time": "2015-05-15 14:11:12"
         },
         {
             "name": "zendframework/zend-cache",
