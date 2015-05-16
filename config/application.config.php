@@ -8,7 +8,7 @@ return \ATP\Application\Config::defaultOptions(array(
 		'ATPContact',
 		'ATPCms',
 		'ATPGallery',
-		'ATPUser',
+		//'ATPUser',
 		//'ATPAcl',
 		'AssetManager',
     )),
