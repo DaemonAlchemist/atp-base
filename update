@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Downloading new code..."
+git pull
+
+echo "Updating dependencies..."
+composer install
+
+echo "Clearing page cache..."
+rm -rf /tmp/zf*
+
+echo "Clearing config cache..."
+rm -rf data/config/*
+
+echo "Regenerating auto-load file"
+composer dump-autoload --optimize
+
+echo "...done"
