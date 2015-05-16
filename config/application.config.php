@@ -5,8 +5,11 @@ return \ATP\Application\Config::defaultOptions(array(
         'Application',
 		'ATPCore',
 		'ATPAdmin',
+		'ATPContact',
 		'ATPCms',
 		'ATPGallery',
+		'ATPUser',
+		'ATPAcl',
 		'AssetManager',
     )),
 	getenv('APPLICATION_ENV') ?: 'development'

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e0b15730b2e581b0df12847191c04845",
+    "hash": "ef1d4ca93e0926d321257a4e64caf395",
     "packages": [
         {
             "name": "daemonalchemist/atp",
@@ -184,6 +184,42 @@
             ],
             "description": "Cms module for ATP framework",
             "time": "2015-05-12 14:21:47"
+        },
+        {
+            "name": "daemonalchemist/atp-contact",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaemonAlchemist/atp-contact.git",
+                "reference": "5f5b04bc944736dd45219198ae2266e6dac73335"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-contact/zipball/5f5b04bc944736dd45219198ae2266e6dac73335",
+                "reference": "5f5b04bc944736dd45219198ae2266e6dac73335",
+                "shasum": ""
+            },
+            "require": {
+                "daemonalchemist/atp-core": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ATPContact": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Wittrock",
+                    "email": "andy@wittrock.us"
+                }
+            ],
+            "description": "Contact module for ATP framework",
+            "time": "2015-05-16 14:13:55"
         },
         {
             "name": "daemonalchemist/atp-core",
@@ -2138,6 +2174,7 @@
         "daemonalchemist/atp-acl": 20,
         "daemonalchemist/atp-advertising": 20,
         "daemonalchemist/atp-admin": 20,
+        "daemonalchemist/atp-contact": 20,
         "daemonalchemist/atp-cms": 20,
         "daemonalchemist/atp-gallery": 20,
         "daemonalchemist/atp-social": 20
