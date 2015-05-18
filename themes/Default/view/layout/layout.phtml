@@ -30,17 +30,21 @@
 		<div id="page">
 			<header>
 				<nav>
-					<ul>
+					<ul class="main-links">
 						<li><a href="<?=$this->basePath()?>/">Home</a></li>
 						<li><a href="<?=$this->basePath()?>/cms/category/news-and-events">News and Events</a></li>
 						<li><a href="<?=$this->basePath()?>/about">About</a></li>
 						<li><a href="<?=$this->basePath()?>/gallery">Gallery</a></li>
 						<li><a href="<?=$this->basePath()?>/contact">Contact</a></li>
 					</ul>
+					<?=$this->headerLinks()?>
 				</nav>
 			</header>
 			<main>
-				<?=$this->content?>
+				<?=$this->breadCrumbs('Homepage',$this->basePath())?>
+				<div id="page-content">
+					<?=$this->content?>
+				</div>
 			</main>
 			<footer>
 				<p id="copyright"><?=str_replace("#DATE#", date('Y'), $this->siteParam("core-site-copyright")) ?></p>

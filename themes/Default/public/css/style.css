@@ -43,18 +43,6 @@ select {
 a {
  text-decoration: none;
 }
-.header-link {
- float: left;
- padding: 4px;
- width: 100px;
- text-align: center;
- height: 100%;
- margin: 0 4px;
- background: #eeeeee;
-}
-.header-link:first-child {
- margin-left: 0;
-}
 body {
  background: #dddddd;
 }
@@ -69,32 +57,75 @@ div#page {
 header {
  padding-top: 150px;
 }
-header nav ul {
+header nav ul.main-links {
  width: 100%;
  background: #dddddd;
  height: 2em;
 }
-header nav ul li {
+header nav ul.main-links li {
  float: left;
- padding: 4px;
- width: 100px;
+ padding: 4px 8px;
  text-align: center;
  height: 100%;
  margin: 0 4px;
  background: #eeeeee;
 }
-header nav ul li:first-child {
+header nav ul.main-links li:first-child {
  margin-left: 0;
 }
+header nav div.module-links {
+ width: 15%;
+ background: #dddddd;
+ float: right;
+ min-height: 600px;
+ margin: 8px;
+ padding: 8px;
+}
+header nav div.module-links h2 {
+ border-bottom: dashed 2px;
+}
+header nav div.module-links li {
+ font-size: small;
+}
+header nav div.module-links li:hover {
+ text-decoration: underline;
+}
 main {
- clear: both;
  padding: 4px;
+}
+main ul.bread-crumbs {
+ margin: 8px;
+}
+main ul.bread-crumbs li {
+ float: left;
+ font-size: small;
+ margin-bottom: 8px;
+}
+main ul.bread-crumbs li a {
+ font-size: small;
+}
+main ul.bread-crumbs li a:hover {
+ text-decoration: underline;
+}
+main ul.bread-crumbs li:after {
+ content: ">";
+ padding: 0 8px;
+}
+main ul.bread-crumbs li:last-child:after {
+ content: "";
+ padding: 0;
 }
 main h1 {
  font-size: x-large;
+ clear: left;
  margin: 8px;
  border-bottom: solid 2px;
  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+main div#page-content {
+ clear: left;
+ width: 85%;
+ padding-right: 8px;
 }
 footer {
  clear: both;

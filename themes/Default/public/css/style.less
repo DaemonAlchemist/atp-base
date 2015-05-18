@@ -23,18 +23,6 @@ a {
 @text-stroke-color: #fff;
 @text-color: #333;
 
-/* Definitions */
-.header-link {
-	float: left;
-	padding: @btn-padding;
-	width: 100px;
-	text-align: center;
-	height: 100%;
-	margin: 0 @btn-padding;
-	&:first-child{margin-left: 0;}
-	background: @btn-color;
-}
-
 /* General styles */
 body {
 	background: @background;
@@ -52,21 +40,63 @@ div#page{
 header {
 	padding-top: @banner-height;
 	nav {
-		ul {
+		ul.main-links {
 			width: 100%;
 			background: @background;
 			height: 2em;
-			li {.header-link;}
+			li {
+				float: left;
+				padding: @btn-padding 8px;
+				text-align: center;
+				height: 100%;
+				margin: 0 @btn-padding;
+				&:first-child{margin-left: 0;}
+				background: @btn-color;
+			}
+		}
+		div.module-links {
+			width: 15%;
+			background: @background;
+			float: right;
+			min-height: 600px;
+			margin: 8px;
+			padding: 8px;
+			h2 {border-bottom: dashed 2px;}
+			li {
+				font-size: small;
+				&:hover {text-decoration: underline;}
+			}
 		}
 	}
 }
 
 main {
-	clear: both;
 	padding: @btn-padding;
+	
+	ul.bread-crumbs {
+		margin: 8px;
+		li {
+			float: left;
+			font-size: small;
+			margin-bottom: 8px;
+			a {
+				font-size: small;
+				&:hover {text-decoration: underline;}
+			}
+			&:after {
+				content: ">";
+				padding: 0 8px;
+			}
+			&:last-child:after {
+				content: "";
+				padding: 0;
+			}
+		}
+	}
 	
 	h1 {
 		font-size: x-large;
+		clear: left;
 		margin: 8px;
 		border-bottom: solid 2px;
 		text-shadow:
@@ -74,6 +104,11 @@ main {
 		@text-stroke-size -@text-stroke-size 0 @text-stroke-color,
 		-@text-stroke-size @text-stroke-size 0 @text-stroke-color,
 		@text-stroke-size @text-stroke-size 0 @text-stroke-color;
+	}
+	div#page-content {
+		clear: left;
+		width: 85%;
+		padding-right: 8px;
 	}
 }
 
