@@ -191,12 +191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-contact.git",
-                "reference": "7f8eecdbbd4a8658abed8f097b0caf5f15adf9f8"
+                "reference": "27e85e226acad7d126c844cef6c66dd3a09ec030"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-contact/zipball/7f8eecdbbd4a8658abed8f097b0caf5f15adf9f8",
-                "reference": "7f8eecdbbd4a8658abed8f097b0caf5f15adf9f8",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-contact/zipball/27e85e226acad7d126c844cef6c66dd3a09ec030",
+                "reference": "27e85e226acad7d126c844cef6c66dd3a09ec030",
                 "shasum": ""
             },
             "require": {
@@ -220,7 +220,7 @@
                 }
             ],
             "description": "Contact module for ATP framework",
-            "time": "2015-05-20 15:07:22"
+            "time": "2015-05-20 16:20:06"
         },
         {
             "name": "daemonalchemist/atp-core",
