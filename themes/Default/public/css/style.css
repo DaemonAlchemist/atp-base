@@ -57,12 +57,12 @@ div#page {
 header {
  padding-top: 150px;
 }
-header nav ul.main-links {
+header nav ul.main-menu {
  width: 100%;
  background: #dddddd;
  height: 2em;
 }
-header nav ul.main-links li {
+header nav ul.main-menu li {
  float: left;
  padding: 4px 8px;
  text-align: center;
@@ -70,7 +70,7 @@ header nav ul.main-links li {
  margin: 0 4px;
  background: #eeeeee;
 }
-header nav ul.main-links li:first-child {
+header nav ul.main-menu li:first-child {
  margin-left: 0;
 }
 header nav div.module-links {
