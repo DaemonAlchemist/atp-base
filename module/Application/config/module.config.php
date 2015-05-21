@@ -8,6 +8,11 @@
  */
 
 return array(
+	'modules' => array(
+		'Application' => array(
+			'version' => '0.9.0',
+		),
+	),
 	'asset_manager' => array(
 		'priority' => 1000,
 	),
