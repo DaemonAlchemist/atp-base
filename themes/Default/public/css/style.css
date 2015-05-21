@@ -90,6 +90,16 @@ header nav div.module-links li {
 header nav div.module-links li:hover {
  text-decoration: underline;
 }
+div.static-block.homepage-top p {
+ padding: 8px;
+}
+div.static-block.homepage-left,
+div.static-block.homepage-right,
+div.static-block.homepage-center {
+ float: left;
+ width: 33%;
+ padding: 16px;
+}
 main {
  padding: 4px;
 }
