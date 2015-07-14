@@ -155,12 +155,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-cms.git",
-                "reference": "6a2a4cac4aa8eac1bd2bd3e346bf31460138f4af"
+                "reference": "ffb28d1a1427ca0f938286b618df8c6a4c71ad45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-cms/zipball/6a2a4cac4aa8eac1bd2bd3e346bf31460138f4af",
-                "reference": "6a2a4cac4aa8eac1bd2bd3e346bf31460138f4af",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-cms/zipball/ffb28d1a1427ca0f938286b618df8c6a4c71ad45",
+                "reference": "ffb28d1a1427ca0f938286b618df8c6a4c71ad45",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
                 }
             ],
             "description": "Cms module for ATP framework",
-            "time": "2015-05-21 03:55:26"
+            "time": "2015-07-14 16:42:53"
         },
         {
             "name": "daemonalchemist/atp-contact",
@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DaemonAlchemist/atp-core.git",
-                "reference": "061fdd8785bda46412f7e6a07971d5d10e8c214f"
+                "reference": "f8bd6e4b13b11fbead3aac3e54c641bb7c50271f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DaemonAlchemist/atp-core/zipball/061fdd8785bda46412f7e6a07971d5d10e8c214f",
-                "reference": "061fdd8785bda46412f7e6a07971d5d10e8c214f",
+                "url": "https://api.github.com/repos/DaemonAlchemist/atp-core/zipball/f8bd6e4b13b11fbead3aac3e54c641bb7c50271f",
+                "reference": "f8bd6e4b13b11fbead3aac3e54c641bb7c50271f",
                 "shasum": ""
             },
             "require": {
@@ -276,7 +276,7 @@
                 }
             ],
             "description": "Core components for the ATP framework",
-            "time": "2015-05-21 03:56:07"
+            "time": "2015-07-14 16:39:54"
         },
         {
             "name": "daemonalchemist/atp-gallery",
